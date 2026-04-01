@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F3EBFE72F7C54910031F29F /* LembreteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EBFE62F7C54910031F29F /* LembreteView.swift */; };
-		9F3EBFE92F7C59D90031F29F /* NotasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EBFE82F7C59D90031F29F /* NotasView.swift */; };
 		9F6E7BBD2F77090100D83B1B /* Turmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E7BBC2F77090100D83B1B /* Turmas.swift */; };
 		9F72CECE2F7B0FBA00CFDAAB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72CECD2F7B0FBA00CFDAAB /* Date.swift */; };
 		9F79FC2F2F7B0C1500A6E65E /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79FC2E2F7B0C1500A6E65E /* SaveButton.swift */; };
@@ -42,8 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9F3EBFE62F7C54910031F29F /* LembreteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteView.swift; sourceTree = "<group>"; };
-		9F3EBFE82F7C59D90031F29F /* NotasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasView.swift; sourceTree = "<group>"; };
 		9F6E7BBC2F77090100D83B1B /* Turmas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turmas.swift; sourceTree = "<group>"; };
 		9F72CECD2F7B0FBA00CFDAAB /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		9F79FC2E2F7B0C1500A6E65E /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
@@ -127,8 +123,6 @@
 				9F82CA242F74782900B3EFEF /* TelaConfigIniciais.swift */,
 				9F79FC2D2F7B0BC300A6E65E /* Components */,
 				9F6E7BBC2F77090100D83B1B /* Turmas.swift */,
-				9F3EBFE62F7C54910031F29F /* LembreteView.swift */,
-				9F3EBFE82F7C59D90031F29F /* NotasView.swift */,
 				9F7B7FA12F7D81580023FDC4 /* TelaAddTurma.swift */,
 			);
 			path = TeacherNotes;
@@ -293,10 +287,8 @@
 				9F79FC2F2F7B0C1500A6E65E /* SaveButton.swift in Sources */,
 				9F82C9FB2F74496E00B3EFEF /* ContentView.swift in Sources */,
 				9F72CECE2F7B0FBA00CFDAAB /* Date.swift in Sources */,
-				9F3EBFE72F7C54910031F29F /* LembreteView.swift in Sources */,
 				9F82CA232F744C3D00B3EFEF /* Home.swift in Sources */,
 				9F6E7BBD2F77090100D83B1B /* Turmas.swift in Sources */,
-				9F3EBFE92F7C59D90031F29F /* NotasView.swift in Sources */,
 				9F82C9F92F74496E00B3EFEF /* TeacherNotesApp.swift in Sources */,
 				9F7B7FA22F7D81580023FDC4 /* TelaAddTurma.swift in Sources */,
 			);
