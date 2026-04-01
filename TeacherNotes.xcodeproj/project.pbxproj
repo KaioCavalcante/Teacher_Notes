@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3EBFE72F7C54910031F29F /* LembreteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EBFE62F7C54910031F29F /* LembreteView.swift */; };
+		9F3EBFE92F7C59D90031F29F /* NotasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EBFE82F7C59D90031F29F /* NotasView.swift */; };
+		9F6E7BBD2F77090100D83B1B /* Turmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6E7BBC2F77090100D83B1B /* Turmas.swift */; };
+		9F72CECE2F7B0FBA00CFDAAB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72CECD2F7B0FBA00CFDAAB /* Date.swift */; };
+		9F79FC2F2F7B0C1500A6E65E /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79FC2E2F7B0C1500A6E65E /* SaveButton.swift */; };
+		9F7B7FA22F7D81580023FDC4 /* TelaAddTurma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B7FA12F7D81580023FDC4 /* TelaAddTurma.swift */; };
+		9F82C9F92F74496E00B3EFEF /* TeacherNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82C9F82F74496E00B3EFEF /* TeacherNotesApp.swift */; };
+		9F82C9FB2F74496E00B3EFEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82C9FA2F74496E00B3EFEF /* ContentView.swift */; };
+		9F82C9FD2F74497000B3EFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F82C9FC2F74497000B3EFEF /* Assets.xcassets */; };
+		9F82CA002F74497000B3EFEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F82C9FF2F74497000B3EFEF /* Preview Assets.xcassets */; };
+		9F82CA0A2F74497100B3EFEF /* TeacherNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA092F74497100B3EFEF /* TeacherNotesTests.swift */; };
+		9F82CA142F74497100B3EFEF /* TeacherNotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA132F74497100B3EFEF /* TeacherNotesUITests.swift */; };
+		9F82CA162F74497100B3EFEF /* TeacherNotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA152F74497100B3EFEF /* TeacherNotesUITestsLaunchTests.swift */; };
+		9F82CA232F744C3D00B3EFEF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA222F744C3D00B3EFEF /* Home.swift */; };
+		9F82CA252F74782900B3EFEF /* TelaConfigIniciais.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82CA242F74782900B3EFEF /* TelaConfigIniciais.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F82CA062F74497100B3EFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F82C9ED2F74496E00B3EFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F82C9F42F74496E00B3EFEF;
+			remoteInfo = TeacherNotes;
+		};
+		9F82CA102F74497100B3EFEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F82C9ED2F74496E00B3EFEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F82C9F42F74496E00B3EFEF;
+			remoteInfo = TeacherNotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F3EBFE62F7C54910031F29F /* LembreteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LembreteView.swift; sourceTree = "<group>"; };
+		9F3EBFE82F7C59D90031F29F /* NotasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasView.swift; sourceTree = "<group>"; };
+		9F6E7BBC2F77090100D83B1B /* Turmas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turmas.swift; sourceTree = "<group>"; };
+		9F72CECD2F7B0FBA00CFDAAB /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		9F79FC2E2F7B0C1500A6E65E /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
+		9F7B7FA12F7D81580023FDC4 /* TelaAddTurma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAddTurma.swift; sourceTree = "<group>"; };
+		9F82C9F52F74496E00B3EFEF /* TeacherNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F82C9F82F74496E00B3EFEF /* TeacherNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNotesApp.swift; sourceTree = "<group>"; };
+		9F82C9FA2F74496E00B3EFEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F82C9FC2F74497000B3EFEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F82C9FF2F74497000B3EFEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F82CA052F74497100B3EFEF /* TeacherNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F82CA092F74497100B3EFEF /* TeacherNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNotesTests.swift; sourceTree = "<group>"; };
+		9F82CA0F2F74497100B3EFEF /* TeacherNotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeacherNotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F82CA132F74497100B3EFEF /* TeacherNotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNotesUITests.swift; sourceTree = "<group>"; };
+		9F82CA152F74497100B3EFEF /* TeacherNotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F82CA222F744C3D00B3EFEF /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9F82CA242F74782900B3EFEF /* TelaConfigIniciais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaConfigIniciais.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F82C9F22F74496E00B3EFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F82CA022F74497100B3EFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F82CA0C2F74497100B3EFEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F79FC2D2F7B0BC300A6E65E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9F79FC2E2F7B0C1500A6E65E /* SaveButton.swift */,
+				9F72CECD2F7B0FBA00CFDAAB /* Date.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9F82C9EC2F74496E00B3EFEF = {
+			isa = PBXGroup;
+			children = (
+				9F82C9F72F74496E00B3EFEF /* TeacherNotes */,
+				9F82CA082F74497100B3EFEF /* TeacherNotesTests */,
+				9F82CA122F74497100B3EFEF /* TeacherNotesUITests */,
+				9F82C9F62F74496E00B3EFEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F82C9F62F74496E00B3EFEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F82C9F52F74496E00B3EFEF /* TeacherNotes.app */,
+				9F82CA052F74497100B3EFEF /* TeacherNotesTests.xctest */,
+				9F82CA0F2F74497100B3EFEF /* TeacherNotesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F82C9F72F74496E00B3EFEF /* TeacherNotes */ = {
+			isa = PBXGroup;
+			children = (
+				9F82C9F82F74496E00B3EFEF /* TeacherNotesApp.swift */,
+				9F82C9FA2F74496E00B3EFEF /* ContentView.swift */,
+				9F82C9FC2F74497000B3EFEF /* Assets.xcassets */,
+				9F82C9FE2F74497000B3EFEF /* Preview Content */,
+				9F82CA222F744C3D00B3EFEF /* Home.swift */,
+				9F82CA242F74782900B3EFEF /* TelaConfigIniciais.swift */,
+				9F79FC2D2F7B0BC300A6E65E /* Components */,
+				9F6E7BBC2F77090100D83B1B /* Turmas.swift */,
+				9F3EBFE62F7C54910031F29F /* LembreteView.swift */,
+				9F3EBFE82F7C59D90031F29F /* NotasView.swift */,
+				9F7B7FA12F7D81580023FDC4 /* TelaAddTurma.swift */,
+			);
+			path = TeacherNotes;
+			sourceTree = "<group>";
+		};
+		9F82C9FE2F74497000B3EFEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F82C9FF2F74497000B3EFEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F82CA082F74497100B3EFEF /* TeacherNotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F82CA092F74497100B3EFEF /* TeacherNotesTests.swift */,
+			);
+			path = TeacherNotesTests;
+			sourceTree = "<group>";
+		};
+		9F82CA122F74497100B3EFEF /* TeacherNotesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F82CA132F74497100B3EFEF /* TeacherNotesUITests.swift */,
+				9F82CA152F74497100B3EFEF /* TeacherNotesUITestsLaunchTests.swift */,
+			);
+			path = TeacherNotesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F82C9F42F74496E00B3EFEF /* TeacherNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F82CA192F74497100B3EFEF /* Build configuration list for PBXNativeTarget "TeacherNotes" */;
+			buildPhases = (
+				9F82C9F12F74496E00B3EFEF /* Sources */,
+				9F82C9F22F74496E00B3EFEF /* Frameworks */,
+				9F82C9F32F74496E00B3EFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeacherNotes;
+			productName = TeacherNotes;
+			productReference = 9F82C9F52F74496E00B3EFEF /* TeacherNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F82CA042F74497100B3EFEF /* TeacherNotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F82CA1C2F74497100B3EFEF /* Build configuration list for PBXNativeTarget "TeacherNotesTests" */;
+			buildPhases = (
+				9F82CA012F74497100B3EFEF /* Sources */,
+				9F82CA022F74497100B3EFEF /* Frameworks */,
+				9F82CA032F74497100B3EFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F82CA072F74497100B3EFEF /* PBXTargetDependency */,
+			);
+			name = TeacherNotesTests;
+			productName = TeacherNotesTests;
+			productReference = 9F82CA052F74497100B3EFEF /* TeacherNotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F82CA0E2F74497100B3EFEF /* TeacherNotesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F82CA1F2F74497100B3EFEF /* Build configuration list for PBXNativeTarget "TeacherNotesUITests" */;
+			buildPhases = (
+				9F82CA0B2F74497100B3EFEF /* Sources */,
+				9F82CA0C2F74497100B3EFEF /* Frameworks */,
+				9F82CA0D2F74497100B3EFEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F82CA112F74497100B3EFEF /* PBXTargetDependency */,
+			);
+			name = TeacherNotesUITests;
+			productName = TeacherNotesUITests;
+			productReference = 9F82CA0F2F74497100B3EFEF /* TeacherNotesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F82C9ED2F74496E00B3EFEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9F82C9F42F74496E00B3EFEF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9F82CA042F74497100B3EFEF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9F82C9F42F74496E00B3EFEF;
+					};
+					9F82CA0E2F74497100B3EFEF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9F82C9F42F74496E00B3EFEF;
+					};
+				};
+			};
+			buildConfigurationList = 9F82C9F02F74496E00B3EFEF /* Build configuration list for PBXProject "TeacherNotes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F82C9EC2F74496E00B3EFEF;
+			productRefGroup = 9F82C9F62F74496E00B3EFEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F82C9F42F74496E00B3EFEF /* TeacherNotes */,
+				9F82CA042F74497100B3EFEF /* TeacherNotesTests */,
+				9F82CA0E2F74497100B3EFEF /* TeacherNotesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F82C9F32F74496E00B3EFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F82CA002F74497000B3EFEF /* Preview Assets.xcassets in Resources */,
+				9F82C9FD2F74497000B3EFEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F82CA032F74497100B3EFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F82CA0D2F74497100B3EFEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F82C9F12F74496E00B3EFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F82CA252F74782900B3EFEF /* TelaConfigIniciais.swift in Sources */,
+				9F79FC2F2F7B0C1500A6E65E /* SaveButton.swift in Sources */,
+				9F82C9FB2F74496E00B3EFEF /* ContentView.swift in Sources */,
+				9F72CECE2F7B0FBA00CFDAAB /* Date.swift in Sources */,
+				9F3EBFE72F7C54910031F29F /* LembreteView.swift in Sources */,
+				9F82CA232F744C3D00B3EFEF /* Home.swift in Sources */,
+				9F6E7BBD2F77090100D83B1B /* Turmas.swift in Sources */,
+				9F3EBFE92F7C59D90031F29F /* NotasView.swift in Sources */,
+				9F82C9F92F74496E00B3EFEF /* TeacherNotesApp.swift in Sources */,
+				9F7B7FA22F7D81580023FDC4 /* TelaAddTurma.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F82CA012F74497100B3EFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F82CA0A2F74497100B3EFEF /* TeacherNotesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F82CA0B2F74497100B3EFEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F82CA142F74497100B3EFEF /* TeacherNotesUITests.swift in Sources */,
+				9F82CA162F74497100B3EFEF /* TeacherNotesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F82CA072F74497100B3EFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F82C9F42F74496E00B3EFEF /* TeacherNotes */;
+			targetProxy = 9F82CA062F74497100B3EFEF /* PBXContainerItemProxy */;
+		};
+		9F82CA112F74497100B3EFEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F82C9F42F74496E00B3EFEF /* TeacherNotes */;
+			targetProxy = 9F82CA102F74497100B3EFEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F82CA172F74497100B3EFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F82CA182F74497100B3EFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F82CA1A2F74497100B3EFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TeacherNotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.TeacherNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F82CA1B2F74497100B3EFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TeacherNotes/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.TeacherNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F82CA1D2F74497100B3EFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.TeacherNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeacherNotes.app/TeacherNotes";
+			};
+			name = Debug;
+		};
+		9F82CA1E2F74497100B3EFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.TeacherNotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TeacherNotes.app/TeacherNotes";
+			};
+			name = Release;
+		};
+		9F82CA202F74497100B3EFEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.TeacherNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeacherNotes;
+			};
+			name = Debug;
+		};
+		9F82CA212F74497100B3EFEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kk.TeacherNotesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TeacherNotes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F82C9F02F74496E00B3EFEF /* Build configuration list for PBXProject "TeacherNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F82CA172F74497100B3EFEF /* Debug */,
+				9F82CA182F74497100B3EFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F82CA192F74497100B3EFEF /* Build configuration list for PBXNativeTarget "TeacherNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F82CA1A2F74497100B3EFEF /* Debug */,
+				9F82CA1B2F74497100B3EFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F82CA1C2F74497100B3EFEF /* Build configuration list for PBXNativeTarget "TeacherNotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F82CA1D2F74497100B3EFEF /* Debug */,
+				9F82CA1E2F74497100B3EFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F82CA1F2F74497100B3EFEF /* Build configuration list for PBXNativeTarget "TeacherNotesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F82CA202F74497100B3EFEF /* Debug */,
+				9F82CA212F74497100B3EFEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F82C9ED2F74496E00B3EFEF /* Project object */;
+}
