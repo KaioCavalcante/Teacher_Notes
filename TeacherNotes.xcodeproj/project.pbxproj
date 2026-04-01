@@ -11,6 +11,7 @@
 		9F72CECE2F7B0FBA00CFDAAB /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F72CECD2F7B0FBA00CFDAAB /* Date.swift */; };
 		9F79FC2F2F7B0C1500A6E65E /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79FC2E2F7B0C1500A6E65E /* SaveButton.swift */; };
 		9F7B7FA22F7D81580023FDC4 /* TelaAddTurma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B7FA12F7D81580023FDC4 /* TelaAddTurma.swift */; };
+		9F7B7FA42F7DB36F0023FDC4 /* TurmaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B7FA32F7DB36F0023FDC4 /* TurmaViewModel.swift */; };
 		9F82C9F92F74496E00B3EFEF /* TeacherNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82C9F82F74496E00B3EFEF /* TeacherNotesApp.swift */; };
 		9F82C9FB2F74496E00B3EFEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F82C9FA2F74496E00B3EFEF /* ContentView.swift */; };
 		9F82C9FD2F74497000B3EFEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F82C9FC2F74497000B3EFEF /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		9F72CECD2F7B0FBA00CFDAAB /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		9F79FC2E2F7B0C1500A6E65E /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
 		9F7B7FA12F7D81580023FDC4 /* TelaAddTurma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaAddTurma.swift; sourceTree = "<group>"; };
+		9F7B7FA32F7DB36F0023FDC4 /* TurmaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurmaViewModel.swift; sourceTree = "<group>"; };
 		9F82C9F52F74496E00B3EFEF /* TeacherNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeacherNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F82C9F82F74496E00B3EFEF /* TeacherNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherNotesApp.swift; sourceTree = "<group>"; };
 		9F82C9FA2F74496E00B3EFEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				9F79FC2D2F7B0BC300A6E65E /* Components */,
 				9F6E7BBC2F77090100D83B1B /* Turmas.swift */,
 				9F7B7FA12F7D81580023FDC4 /* TelaAddTurma.swift */,
+				9F7B7FA32F7DB36F0023FDC4 /* TurmaViewModel.swift */,
 			);
 			path = TeacherNotes;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				9F82CA252F74782900B3EFEF /* TelaConfigIniciais.swift in Sources */,
 				9F79FC2F2F7B0C1500A6E65E /* SaveButton.swift in Sources */,
+				9F7B7FA42F7DB36F0023FDC4 /* TurmaViewModel.swift in Sources */,
 				9F82C9FB2F74496E00B3EFEF /* ContentView.swift in Sources */,
 				9F72CECE2F7B0FBA00CFDAAB /* Date.swift in Sources */,
 				9F82CA232F744C3D00B3EFEF /* Home.swift in Sources */,
